@@ -1,4 +1,4 @@
-package collections_and_generics.collections_library.list.arraylistdemo;
+package collections_and_generics.collections_library.list_Interface.arraylistdemo;
 
 import java.util.Arrays;
 import java.util.List;

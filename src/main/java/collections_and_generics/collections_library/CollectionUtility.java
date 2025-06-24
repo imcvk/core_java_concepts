@@ -5,6 +5,8 @@ import net.datafaker.Faker;
 import java.util.Collection;
 import java.util.function.Supplier;
 
+import collections_and_generics.collections_library.sorting_and_comparing.comparing.Student;
+
 public class CollectionUtility {
     static Faker faker = new Faker();
 
@@ -40,5 +42,17 @@ public class CollectionUtility {
         for (T item : collection) {
             System.out.println(item);
         }
+    }
+
+    // Generic method to create a list of students in any collection type
+    public static <T extends Collection<Student>> T getStudentList(Supplier<T> collectionSupplier) {
+        T studentLisT = collectionSupplier.get();
+        for (int i = 0; i < 10; i++) {
+            Student s = new Student(faker.number().numberBetween(1, 100),
+                    faker.name().fullName(),
+                    faker.number().numberBetween(1, 100));
+            studentLisT.add(s);
+        }
+        return studentLisT;
     }
 }

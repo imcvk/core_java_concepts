@@ -1,4 +1,4 @@
-package collections_and_generics.collections_library.queue;
+package collections_and_generics.collections_library.list_Interface.queue;
 
 import java.util.LinkedList;
 import java.util.Queue;

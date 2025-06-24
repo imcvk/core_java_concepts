@@ -1,4 +1,4 @@
-package collections_and_generics.collections_library.list.linkedListDemo;
+package collections_and_generics.collections_library.list_Interface.linkedListDemo;
 
 import collections_and_generics.collections_library.CollectionUtility;
 
