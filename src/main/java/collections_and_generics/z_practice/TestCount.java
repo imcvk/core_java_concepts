@@ -1,4 +1,4 @@
-package collections_and_generics.collections_library.z_practice;
+package collections_and_generics.z_practice;
 
 import java.util.ArrayList;
 import java.util.Collections;

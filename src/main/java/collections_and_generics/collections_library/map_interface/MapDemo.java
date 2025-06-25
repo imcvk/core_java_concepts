@@ -1,4 +1,4 @@
-package collections_and_generics.collections_library.map;
+package collections_and_generics.collections_library.map_interface;
 
 import java.util.HashMap;
 import java.util.Map;

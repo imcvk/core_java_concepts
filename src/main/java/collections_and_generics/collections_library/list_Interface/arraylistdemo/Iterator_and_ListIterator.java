@@ -1,6 +1,6 @@
 package collections_and_generics.collections_library.list_Interface.arraylistdemo;
 
-import collections_and_generics.collections_library.CollectionUtility;
+import collections_and_generics.collections_library.collection_utility.CollectionUtility;
 
 import java.util.ArrayList;
 import java.util.Iterator;

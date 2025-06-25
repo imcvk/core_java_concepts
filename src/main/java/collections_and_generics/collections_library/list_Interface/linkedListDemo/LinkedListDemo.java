@@ -1,11 +1,9 @@
 package collections_and_generics.collections_library.list_Interface.linkedListDemo;
 
-import collections_and_generics.collections_library.CollectionUtility;
+import collections_and_generics.collections_library.collection_utility.CollectionUtility;
 
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedList;
-import java.util.List;
 
 public class LinkedListDemo {
     public static void main(String[] args) {

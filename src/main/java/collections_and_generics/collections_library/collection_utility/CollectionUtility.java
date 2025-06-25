@@ -1,4 +1,4 @@
-package collections_and_generics.collections_library;
+package collections_and_generics.collections_library.collection_utility;
 
 import net.datafaker.Faker;
 
@@ -54,5 +54,8 @@ public class CollectionUtility {
             studentLisT.add(s);
         }
         return studentLisT;
+    }
+    public static void outputDivider(){
+        System.out.println("---------------------------------------------------------------------");
     }
 }
