@@ -1,4 +1,4 @@
-package collections_and_generics.collections_library.stack;
+package collections_and_generics.collections_library.list_Interface.stack;
 
 import collections_and_generics.collections_library.collection_utility.CollectionUtility;
 
